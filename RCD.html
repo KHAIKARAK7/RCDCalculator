@@ -109,7 +109,7 @@ body {
   left: 0; /* Atas kiri, boleh adjust kemudian */
 }
 
-.side-btn,.side-btn2 {
+.side-btn {
   padding: 12px 18px;
   font-size: 1rem;
   font-weight: bold;
@@ -118,7 +118,7 @@ body {
   border: none;
   border-radius: 10px;
   margin-bottom: 15px;
-  margin-top: 5px;
+  margin-top: 430px;
   cursor: pointer;
   transition: 0.3s;
   z-index: 9999;
@@ -128,8 +128,10 @@ body {
   padding: 12px 18px;
   border-radius: 10px;
   margin-bottom: 15px;
+  margin-top: 430px;
   white-space: nowrap; /* Mengelakkan teks dari wrapping */
   display: inline-block; /* Pastikan ia berada dalam satu baris */
+  cursor: pointer;
 }
 
 
@@ -176,6 +178,65 @@ body {
   color: #00bfff;
   text-decoration: underline;
 }
+
+.side-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  align-items: flex-start;
+  position: absolute; /* Supaya boleh letak di mana-mana dalam main-wrapper */
+  top: 0; /* Atas kiri, boleh adjust kemudian */
+  left: 0; /* Atas kiri, boleh adjust kemudian */
+}
+
+
+
+
+
+
+
+.side-btn {
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 120px;
+  margin-right: -440px;
+  margin-left: 440px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 9999;
+}
+
+.side-btn2 {
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: -3px;
+  margin-left: -100px;
+  margin-right: 100px;
+  white-space: nowrap; /* Mengelakkan teks dari wrapping */
+  display: inline-block; /* Pastikan ia berada dalam satu baris */
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+.side-btn:hover {
+  background-color: #d4ac0d;
+  color: white;
+}
+
+
+
+
+
+
+
 
 /* Main Container */
 .container {
